@@ -12,12 +12,8 @@
     <body>
         
         <header class="row">
-            <div class="col-2 wrapper">
-                <img class="header-logo" title="ScarpeX logo" alt="Logo ScarpeX" src="img/logo.png">
-            </div>
-            <div class="col-10 title-wrapper wrapper">
-                <h1>ScarpeX</h1>
-            </div>
+            <img class="header-logo" title="ScarpeX logo" alt="Logo ScarpeX" src="img/logo.png">
+            <h1 class="header-title">ScarpeX</h1>
         </header>
         
         <nav class="row">
@@ -31,45 +27,64 @@
         </nav>
 
         <div class="row content-wrapper">
-            <main class="col-8 wrapper">
+            <main class="col-8 col-s-12 wrapper">
 
-                <section>
+                <section class="login-wrapper">
+                
                     <h2>Login</h2>
-                     <form action="login" method="post">
-                        <label for="email-login">Email</label>
-                        <input type="email" name="email" id="email-login" />
 
-                        <label for="password-login">Password</label>
-                        <input type="password" name="password" id="password-login" />
-
-                        <button type="submit">Login</button>
+                     <form class="login-form" action="" method="post">
+                        
+                        <div class="input-wrapper">
+                            <label for="email-login">Email</label>
+                            <input type="email" name="email" id="email-login" />
+                        </div>
+                        
+                        <div class="input-wrapper">
+                            <label for="password-login">Password</label>
+                            <input type="password" name="password" id="password-login" />
+                        </div>
+                        
+                        <button class="login-button" type="submit">Login</button>
+                
                     </form>
+                
                 </section>
 
-                <section>
+                <section class="login-wrapper">
+
                     <h2>Registrati</h2>
-                     <form action="" method="post">
 
-                         <label for="nome">Nome</label>
-                        <input type="text" name="nome" id="nome" />
-
-                        <label for="cognome">Cognome</label>
-                        <input type="text" name="cognome" id="cognome" />
-
-                         <label for="email-registrazione">Email</label>
-                        <input type="text" name="email" id="email-registrazione" />
-
-                        <label for="password-registrazione">Password</label>
-                        <input type="password" name="password" id="password-registrazione" />
-
-                        <button type="submit">Registrati</button>
+                     <form class="login-form" action="" method="post">
+                        
+                        <div class="input-wrapper">
+                            <label for="nome">Nome</label>
+                            <input type="text" name="nome" id="nome" />
+                        </div>
+                        
+                        <div class="input-wrapper">
+                            <label for="cognome">Cognome</label>
+                            <input type="text" name="cognome" id="cognome" />    
+                        </div>
+                        
+                        <div class="input-wrapper">
+                            <label for="email-registrazione">Email</label>
+                            <input type="text" name="email" id="email-registrazione" />    
+                        </div>
+                        
+                        <div class="input-wrapper">
+                            <label for="password-registrazione">Password</label>
+                            <input type="password" name="password" id="password-registrazione" />
+                        </div>
+                        
+                        <button class="login-button" type="submit">Registrati</button>
                     </form>
                 </section>
 
 
             </main>
 
-            <aside class="col-4 wrapper">
+            <aside class="col-4 col-s-12 wrapper">
                 <section>
                     <h2>Su MetaFace</h2>
                     <p>Siamo una startap nata al seguito della recente esplosione dei mondi virtuali.
