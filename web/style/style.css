@@ -146,6 +146,13 @@ main {
     /*background-color: red;*/ 
 }
 
+@media only screen and (max-width: 480px) {
+
+    main {
+        padding-right: 1em;
+    }
+}
+
 aside {
     height: auto;
     
@@ -331,4 +338,19 @@ main .persona-wrapper:last-child {
         font-size: 1.2em;
     }
 
+}
+
+/** area personale section */
+
+.profilo-utente-dettagli-wrapper  {
+    background-color: red;
+}
+
+.profilo-utente-dettagli-wrapper ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.profilo-utente-dettagli-wrapper li {
+    padding: 0.5em;
 }
